@@ -1,5 +1,9 @@
 <Alloy>
 	<Window class="container">
-		<Label id="label" onClick="doClick">Hello, World</Label>
+		<ListView id='songsList'>
+			<ListSection>
+				
+			</ListSection>
+		</ListView>	
 	</Window>
 </Alloy>
