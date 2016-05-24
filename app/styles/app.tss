@@ -24,3 +24,24 @@ overrode the settings with other TSS, XML, or JS settings:
 }
 
 */
+".timeLabels" : {
+	font: {
+		fontSize: '14dp', 
+		fontFamily: 'LiberationSerif'
+	},
+	color: 'white'
+},
+"#artistTitle" : {
+	font: {
+		fontSize: '12dp', 
+		fontFamily: 'LiberationSerif'
+	},
+	color: 'white'
+},
+"#songTitle" : {
+	font: {
+		fontSize: '18dp', 
+		fontFamily: 'LiberationSerif'
+	},
+	color: 'white'
+}

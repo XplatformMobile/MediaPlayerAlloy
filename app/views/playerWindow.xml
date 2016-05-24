@@ -1,0 +1,19 @@
+<Alloy>
+	<Window class="container" id='playerWindow' title='Playing from songs'>
+		<ImageView height=Ti.Platform.displayCaps.platformHeight image="Img/background.png"></ImageView>
+		<Button backgroundImage='UIImages/shuffle.png' id='shuffleButton' height='50' width='75' left='30' bottom='33'></Button>
+		<Button backgroundImage='UIImages/repeat.png' id='repeatButton' height='50' width='75' right='30' bottom='33'></Button>
+		<Button backgroundImage="UIImages/next.png" bottom='20' height='80' width='80' right='106' id="nextButton"></Button>
+		<Button backgroundImage="UIImages/previous.png" bottom='20' height='80' width='80' left='106' id="prevButton"></Button>
+		<Button backgroundImage="UIImages/play.png" bottom='20' height='80' width='80' id="playButton"></Button>
+		<Label class='timeLabels' id='elapsedTime' text='0' textAlign='center' bottom='130' left='25'></Label>
+		<Label class='timeLabels' id='remaining' text='0' textAlign='center' bottom='130' right='25'></Label>
+		<Label id='songTitle' text='Title' textAlign='center' bottom='125'></Label>
+		<Label id='artistTitle' text='Artist' textAlign='center' bottom='110'></Label>
+		<ImageView id='albumImage' image="Img/bidolibido.png" width=Ti.Platform.displayCaps.platformWidth*0.75 bottom=Ti.Platform.displayCaps.platformWidth*0.63 borderColor='black' borderWidth='1'></ImageView>
+		<ImageView id='nextAlbumImage' image="Img/bidolibido.png" opacity='0.5' width=Ti.Platform.displayCaps.platformWidth*0.68 right='-60%' bottom=Ti.Platform.displayCaps.platformWidth*0.66 borderColor='black' borderWidth='1'></ImageView>
+		<ImageView id='prevAlbumImage' image="Img/bidolibido.png" opacity='0.5' width=Ti.Platform.displayCaps.platformWidth*0.68 left='-60%' bottom=Ti.Platform.displayCaps.platformWidth*0.66 borderColor='black' borderWidth='1'></ImageView>
+		<ImageView id='backSliderImage' image='Img/slidebarback.png' left="32" bottom="174"></ImageView> 
+		<Slider id='slider' bottom='150' width="90%" min="0" max="100" thumbImage='UIImages/thumb2.png' leftTrackImage="UIImages/teste1.png" rightTrackImage="UIImages/test6.png"></Slider>
+	</Window>
+</Alloy>

@@ -4,7 +4,7 @@
     <name>MediaPlayerAlloy</name>
     <version>1.0</version>
     <publisher>msoe</publisher>
-    <url/>
+    <url>undefined</url>
     <description>Simple Media Player Project using the alloy structure.</description>
     <copyright>2016 by msoe</copyright>
     <icon>appicon.png</icon>
@@ -50,6 +50,7 @@
     </mobileweb>
     <modules>
         <module platform="commonjs">ti.cloud</module>
+        <module platform="iphone">de.codewave.ti.mediacontrols</module>
     </modules>
     <deployment-targets>
         <target device="android">true</target>

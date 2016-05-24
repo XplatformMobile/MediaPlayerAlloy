@@ -1,9 +1,10 @@
 <Alloy>
-	<Window class="container">
-		<ListView id='songsList'>
-			<ListSection>
-				
-			</ListSection>
-		</ListView>	
-	</Window>
+	<NavigationWindow module="xp.ui" title="Songs" id='navigationWindow'>
+		<Window class="container" title="Songs" id='indexWindow'>
+			<ListView id='songsList'>
+				<ListSection>
+				</ListSection>
+			</ListView>
+		</Window>
+	</NavigationWindow>
 </Alloy>
